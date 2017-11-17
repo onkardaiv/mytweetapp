@@ -76,4 +76,4 @@
      - script:
          name: Start all services/containers
          code: |
-           ssh $DEV_REMOTE_USER@$DEV_REMOTE_HOST sudo docker container run --detach -p 777:80 --name mytweetapp onkardaiv/mytweetapp:current
+           ssh $DEV_REMOTE_USER@$DEV_REMOTE_HOST sudo docker container run --detach -p 778:80 --name mytweetapp onkardaiv/mytweetapp:current
